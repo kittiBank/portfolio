@@ -3,8 +3,10 @@
 
 
 @theme {
-  --font-ovo: "Ovo", serif; /* Font Ovo */
-  --grid-cols-auto: repeat(auto-fit, minmax(200px, 1fr)); /* Responsive */
+  --font-ovo: "Ovo", serif;
+  /* Font Ovo */
+  --grid-cols-auto: repeat(auto-fit, minmax(200px, 1fr));
+  /* Responsive */
 }
 
 /* Custom grid utility */
@@ -18,7 +20,6 @@ body {
 }
 
 
-*{
+* {
   font-family: Outfit;
 }
-
