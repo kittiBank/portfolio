@@ -66,7 +66,7 @@ const About = () => {
                         initial={{ y: 20, opacity: 0 }}
                         whileInView={{ y: 0, opacity: 1 }}
                         transition={{ duration: 0.5, delay: 1.3 }}
-                        className='flex items-center justify-center gap-3 sm:gap-5'>
+                        className='grid grid-cols-4 items-center max-w-fit mx-auto gap-x-3 gap-y-5 sm:grid-cols-6'>
                         {toolsData.map((tool, index) => (
                             <motion.li
                                 whileInView={{ scale: 1.1 }}

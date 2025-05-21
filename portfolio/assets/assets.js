@@ -38,6 +38,13 @@ import send_icon from './send-icon.png';
 import right_arrow_bold from './right-arrow-bold.png';
 import right_arrow_bold_dark from './right-arrow-bold-dark.png';
 import react_icon from './react_icon.png';
+import Javascript_icon from './Javascript_icon.png';
+import Dbever_icon from './Dbever_icon.png';
+import express_icon from './express_icon.png';
+import node_icon from './node_icon.png';
+import tailwind_icon from './tailwind_icon.png';
+import eclipse_icon from './eclipse_icon.png';
+
 
 export const assets = {
     user_image,
@@ -79,7 +86,13 @@ export const assets = {
     send_icon,
     right_arrow_bold,
     right_arrow_bold_dark,
-    react_icon
+    react_icon,
+    Javascript_icon,
+    Dbever_icon,
+    express_icon,
+    node_icon,
+    tailwind_icon,
+    eclipse_icon
 };
 
 export const workData = [
@@ -106,10 +119,30 @@ export const workData = [
 ]
 
 export const serviceData = [
-    { icon: assets.web_icon, title: 'Web design', description: 'Web development is the process of building, programming...', link: '' },
-    { icon: assets.mobile_icon, title: 'Mobile app', description: 'Mobile app development involves creating software for mobile devices...', link: '' },
-    { icon: assets.ui_icon, title: 'UI/UX design', description: 'UI/UX design focuses on creating a seamless user experience...', link: '' },
-    { icon: assets.graphics_icon, title: 'Graphics design', description: 'Creative design solutions to enhance visual communication...', link: '' },
+    {
+        icon: assets.web_icon,
+        title: 'Web design',
+        description: 'Web development is the process of building, programming...',
+        link: ''
+    },
+    {
+        icon: assets.mobile_icon,
+        title: 'Mobile app',
+        description: 'Mobile app development involves creating software for mobile devices...',
+        link: ''
+    },
+    {
+        icon: assets.ui_icon,
+        title: 'UI/UX design',
+        description: 'UI/UX design focuses on creating a seamless user experience...',
+        link: ''
+    },
+    {
+        icon: assets.graphics_icon,
+        title: 'Graphics design',
+        description: 'Creative design solutions to enhance visual communication...',
+        link: ''
+    },
 ]
 
 export const infoList = [
@@ -131,6 +164,7 @@ export const infoList = [
 ];
 
 export const toolsData = [
-    assets.vscode, assets.firebase, assets.mongodb, assets.figma, assets.git,  assets.react_icon 
-    
+    assets.vscode, assets.firebase, assets.mongodb, assets.figma, assets.git, assets.react_icon,
+    assets.Javascript_icon, assets.Dbever_icon, assets.express_icon, assets.node_icon, assets.tailwind_icon, assets.eclipse_icon,
+
 ];
