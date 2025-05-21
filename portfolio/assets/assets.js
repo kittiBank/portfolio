@@ -12,6 +12,8 @@ import git from './git.png';
 import mongodb from './mongodb.png';
 import right_arrow_white from './right-arrow-white.png';
 import logo from './logo.png';
+import kit_logo from './kit_logo.png';
+import kit_profile_sm from './kit_profile_sm.jpg';
 import logo_dark from './logo_dark.png';
 import mail_icon from './mail_icon.png';
 import mail_icon_dark from './mail_icon_dark.png';
@@ -51,6 +53,8 @@ export const assets = {
     mongodb,
     right_arrow_white,
     logo,
+    kit_logo,
+    kit_profile_sm,
     logo_dark,
     mail_icon,
     mail_icon_dark,
