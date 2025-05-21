@@ -26,23 +26,17 @@ const About = () => {
                 initial={{ opacity: 0 }}
                 whileInView={{ opacity: 1 }}
                 transition={{ duration: 0.8 }}
-                className='flex w-full flex-col lg:flex-row items-center gap-20 my-20'>
-                <motion.div
-                    initial={{ opacity: 0, scale: 0.9 }}
-                    whileInView={{ opacity: 1, scale: 1 }}
-                    transition={{ duration: 0.6 }}
-                    className='w-64 sm:w-80 rounded-3x1 max-w-none'>
-                    <Image src={assets.user_image} alt='user' className='w-full rounded-3x1' />
-                </motion.div>
+                className='flex w-full flex-col lg:flex-col justify-center items-center gap-20 my-20'>
+
                 <motion.div
                     initial={{ opacity: 0 }}
                     whileInView={{ opacity: 1 }}
                     transition={{ duration: 0.6, delay: 0.8 }}
                     className='flex-1'>
-                    <p className='mb-10 max-w-2xl font-Ovo'>
-                        I am an experienced Back-end Developer with over a decade of professional expertise in the field.
-                        Throughout my career, I have had the privilege of collaborating with prestigious
-                        organizations, contributing to their success and growth.</p>
+                    <p className='mb-10 max-w-2xl font-Ovo text-justify indent-10'>
+                        Developer with basic skills in frontend and backend using HTML, CSS, JavaScript, React, Node.js, and MongoDB.
+                        Passionate about learning and growing through personal projects that showcase full-cycle web development.
+                    </p>
 
                     <motion.ul
                         initial={{ opacity: 0 }}
@@ -53,7 +47,7 @@ const About = () => {
                             <motion.li
                                 whileHover={{ scale: 1.05 }}
                                 className='border-[0.5px] border-gray-400 rounded-xl p-6 cursor-pointer hover:bg-gray-100 
-                                hover:-translate-y-5 duration-400 hover:shadow-black'
+                                hover:-translate-y-5 duration-400 hover:shadow-black flex flex-col items-center text-center'
                                 key={index}>
                                 <Image src={icon} alt={title} className='w-7 mt-3' />
                                 <h3 className='my-4 font-semibold text-gray-700'>{title}</h3>
@@ -66,13 +60,13 @@ const About = () => {
                         initial={{ opacity: 0 }}
                         whileInView={{ opacity: 1 }}
                         transition={{ duration: 0.6, delay: 1.5 }}
-                        className='my-6 text-gray-700 font-Ovo'>Tools I use</motion.h4>
+                        className='my-6 text-gray-700 font-Ovo text-center'>Tools I use</motion.h4>
 
                     <motion.ul
                         initial={{ y: 20, opacity: 0 }}
                         whileInView={{ y: 0, opacity: 1 }}
                         transition={{ duration: 0.5, delay: 1.3 }}
-                        className='flex items-center gap-3 sm:gap-5'>
+                        className='flex items-center justify-center gap-3 sm:gap-5'>
                         {toolsData.map((tool, index) => (
                             <motion.li
                                 whileInView={{ scale: 1.1 }}
