@@ -1,4 +1,3 @@
-import user_image from './user-image.png';
 import code_icon from './code-icon.png';
 import code_icon_dark from './code-icon-dark.png';
 import edu_icon from './edu-icon.png';
@@ -17,7 +16,6 @@ import kit_profile_sm from './kit_profile_sm.jpg';
 import logo_dark from './logo_dark.png';
 import mail_icon from './mail_icon.png';
 import mail_icon_dark from './mail_icon_dark.png';
-import profile_img from './profile-img.png';
 import download_icon from './download-icon.png';
 import hand_icon from './hand-icon.png';
 import header_bg_color from './header-bg-color.png';
@@ -47,7 +45,6 @@ import eclipse_icon from './eclipse_icon.png';
 
 
 export const assets = {
-    user_image,
     code_icon,
     code_icon_dark,
     edu_icon,
@@ -66,7 +63,6 @@ export const assets = {
     logo_dark,
     mail_icon,
     mail_icon_dark,
-    profile_img,
     download_icon,
     hand_icon,
     header_bg_color,

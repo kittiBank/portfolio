@@ -29,22 +29,26 @@ const Service = () => {
       </motion.p>
 
       {/* Responsive */}
-      <section className="py-2 px-4 grid sm:grid-cols-2 gap-8 place-items-center">
+      <motion.section
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        transition={{ delay: 0.9, duration: 0.5 }}
+        className="py-2 px-4 grid sm:grid-cols-1 gap-8 place-items-center">
         <ProjectCard
           title="Portfolio Website"
-          image="/images/portfolio.png"
+          image="/images/portfolio_project.png"
           description="A personal portfolio built with React and Tailwind to showcase my projects and skills."
-          githubLink="https://github.com/yourusername/portfolio"
-          demoLink="https://your-portfolio.vercel.app"
+          githubLink="https://github.com/kittiBank/portfolio"
+          demoLink="https://kittipr.vercel.app/"
         />
-        <ProjectCard
+        {/* <ProjectCard
           title="E-commerce App"
           image="/images/ecommerce.png"
           description="A simple e-commerce frontend with cart features and product listings."
-          githubLink="https://github.com/yourusername/ecommerce"
-          demoLink="https://your-ecommerce.vercel.app"
-        />
-      </section>
+          githubLink="https://github.com/kittiBank/ecomerce_workshop"
+          demoLink="#"
+        /> */}
+      </motion.section>
 
     </motion.div >
   )
