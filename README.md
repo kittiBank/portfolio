@@ -1,3 +1,25 @@
+**Portfolio Website**
+
+This is my personal portfolio website built with **Next** and styled using **Tailwind CSS**.  
+It showcases my projects, skills, and a little about me.
+
+
+**Features**
+- Responsive design (mobile-friendly)
+- Project showcase with descriptions and links
+- Home, About me, Project, Contact sections
+- Contact form (or contact links)
+
+**Tech Stack**
+- **Frontend:** Next, Tailwind CSS
+- **Build Tool:** Vite
+- **Deployment:** Vercel
+
+Live Demo: https://kittipr.vercel.app/
+
+
+---
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
