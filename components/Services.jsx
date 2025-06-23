@@ -33,7 +33,7 @@ const Service = () => {
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         transition={{ delay: 0.9, duration: 0.5 }}
-        className="py-2 px-4 grid sm:grid-cols-1 gap-8 place-items-center">
+        className="py-2 px-4 grid grid-cols-1 sm:grid-cols-2 gap-8 place-items-center">
         <ProjectCard
           title="Portfolio Website"
           image="/images/portfolio_project.png"
@@ -41,13 +41,13 @@ const Service = () => {
           githubLink="https://github.com/kittiBank/portfolio"
           demoLink="https://kittipr.vercel.app/"
         />
-        {/* <ProjectCard
-          title="E-commerce App"
-          image="/images/ecommerce.png"
-          description="A simple e-commerce frontend with cart features and product listings."
-          githubLink="https://github.com/kittiBank/ecomerce_workshop"
-          demoLink="#"
-        /> */}
+        <ProjectCard
+          title="Authentication System"
+          image="/images/authen-mern.png"
+          description="User login and signup system using React, Tailwind, Axios, and Express.js. Data is stored in MongoDB, and JWT is used for secure user sessions."
+          githubLink="https://github.com/kittiBank/authen-mern"
+          demoLink="https://authen-mern.vercel.app/"
+        />
       </motion.section>
 
     </motion.div >
