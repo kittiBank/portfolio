@@ -42,6 +42,8 @@ import express_icon from './express_icon.png';
 import node_icon from './node_icon.png';
 import tailwind_icon from './tailwind_icon.png';
 import eclipse_icon from './eclipse_icon.png';
+import music02 from './music02.jpg';
+import order_mgnt from './order_mgnt.jpg';
 
 
 export const assets = {
@@ -88,7 +90,9 @@ export const assets = {
     express_icon,
     node_icon,
     tailwind_icon,
-    eclipse_icon
+    eclipse_icon,
+    music02,
+    order_mgnt
 };
 
 export const workData = [
